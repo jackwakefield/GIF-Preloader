@@ -1,0 +1,23 @@
+{
+    "name": "GIF Preloader",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Adds a placeholder over GIF images until they're loaded.",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "css": ["css/styles.css"],
+            "js": ["libs/jquery.js", "libs/mutation_summary.js", "gifpreloader.js"],
+            "run_at": "document_end",
+            "all_frames": true
+        }
+    ],
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "permissions": [
+        "<all_urls>"
+    ]
+}

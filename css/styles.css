@@ -1,0 +1,11 @@
+.preloader-placeholder {
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: #d0d0d0;
+	box-sizing: border-box;
+	border: 1px solid #aaaaaa;
+	color: #696969;
+	text-align: center;
+	font-size: 10px;
+}
